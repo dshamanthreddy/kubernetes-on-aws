@@ -56,6 +56,7 @@ spec:
           - "-experimental-upgrade"
           - "-metrics-exp-decay-sample"
           - "-reverse-source-predicate"
+          - "-enable-prometheus-metrics"
         resources:
           limits:
             cpu: 200m
